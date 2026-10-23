@@ -11,9 +11,9 @@ A robust, multi-process directory synchronization system implemented in C. This 
 
 **Available Console Commands**
 * add <source_dir> <target_dir>: Dynamically adds a new directory pair to the system for real-time monitoring and synchronization.
-* status <directory>: Displays the current status, the timestamp of the last synchronization, and the total error count for the specified directory.
-* sync <directory>: Manually triggers an immediate synchronization for the specified directory.
-* cancel <directory>: Stops monitoring the specified directory (removes the inotify watch) and removes it from the system.
+* status <specific_directory>: Displays the current status, the timestamp of the last synchronization, and the total error count for the specified directory.
+* sync <specific_directory>: Manually triggers an immediate synchronization for the specified directory.
+* cancel <specific_directory>: Stops monitoring the specified directory (removes the inotify watch) and removes it from the system.
 * shutdown: Gracefully terminates the manager, closes the console, and waits for all active worker processes to finish their tasks before completely exiting. 
 
 **How to Compile and Run**
