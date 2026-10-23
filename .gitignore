@@ -1,0 +1,20 @@
+# Εκτελέσιμα αρχεία
+fss_manager
+fss_console
+fss_worker
+*.out
+
+# Προσωρινά αρχεία μεταγλώττισης (Object files)
+*.o
+
+# Named pipes (FIFOs) για το IPC
+fss_in
+fss_out
+
+# Αρχεία καταγραφής (Log files)
+console-logfile
+*.log
+
+# Αρχεία συστήματος και IDE
+.vscode/
+.DS_Store
